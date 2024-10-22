@@ -62,11 +62,8 @@ const Carousel = ({ children }: CarouselProps) => {
         <div
             id="carousel"
             className="relative h-[50vh] md:h-[calc(100vh-100px)] max-w-[2000px] max-h-[1000px] mx-auto bg-[#fef3ef] scroll-mt-[100px]">
-            {/* Blue Filter */}
-            <div className="absolute left-0 top-0 w-full h-full bg-[#003a705b] z-[1]"/>
-
             {/* Slogan */}
-            <div className="absolute left-1/2 top-[40%] md:top-1/4 -translate-x-1/2 -translate-y-1/2 z-[1]">
+            <div className="absolute left-1/2 top-[40%] md:top-1/4 -translate-x-1/2 -translate-y-1/2 z-[2]">
                 <h1
                     className="text-white text-[2.5rem] lg:text-5xl  text-center leading-tight lg:leading-relaxed"
                     style={{ textShadow: "#000 2px 2px 10px" }}>
@@ -86,6 +83,9 @@ const Carousel = ({ children }: CarouselProps) => {
                 <div className="hidden md:block absolute bottom-[95px] md:bottom-[240px] left-[calc(50%-16px)] z-10 motion-safe:animate-bounce">
                     <BsMouse className="text-white" size={32} />
                 </div>
+
+                {/* Blue Filter */}
+                <div className="absolute left-0 top-0 w-full h-full bg-[#003a705b] z-[1]"/>
 
                 {/* Carousel Images */}
                 <div
@@ -140,7 +140,7 @@ const Carousel = ({ children }: CarouselProps) => {
 
             <div
                 className={`absolute -bottom-4 lg:-bottom-16 w-full pointer-events-none z-[2]`}>
-                <Image src={dalga} alt="a" className="w-[100vw]" />
+                <img src="./wave.svg" alt="wave" className="w-full min-[2000px]:scale-[1.001]" />
             </div>
         </div>
     );
@@ -152,7 +152,7 @@ function CarouselWrapper() {
             <CarouselItem>
                 <img
                     srcSet="./carousel/carousel1.webp 4000w, ./carousel/carousel1-500w.webp 500w"
-                    src="/carousel/carousel1.webp"
+                    src="./carousel/carousel1.webp"
                     alt="carousel_image_2"
                     className="object-cover w-full h-full"
                 />
@@ -160,7 +160,7 @@ function CarouselWrapper() {
             <CarouselItem>
                 <img
                     srcSet="./carousel/carousel2.webp 4000w, ./carousel/carousel2-500w.webp 500w"
-                    src="/carousel/carousel2.webp"
+                    src="./carousel/carousel2.webp"
                     alt="carousel_image_3"
                     className="object-cover w-full h-full"
                     loading="lazy"
@@ -169,7 +169,7 @@ function CarouselWrapper() {
             <CarouselItem>
                 <img
                     srcSet="./carousel/carousel3.webp 4000w, ./carousel/carousel3-500w.webp 500w"
-                    src="/carousel/carousel3.webp"
+                    src="./carousel/carousel3.webp"
                     alt="carousel_image_1"
                     className="object-cover w-full h-full"
                     loading="lazy"

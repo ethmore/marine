@@ -11,19 +11,19 @@ const References = () => {
             <div className="w-full bg-neutral-300 flex items-center align-middle mt-4 mb-4 ">
                 <div className="flex flex-wrap md:w-full justify-around gap-y-3 2xl:gap-y-7 max-w-[1700px] m-auto brightness-[50%] opacity-80">
                     <div className={`${divStyle}`}>
-                        <img src={`/references/panaroma_solutions.svg`} alt={'reference image'} className={`${logoStyle}`} loading="lazy" />
+                        <img src={`./references/panaroma_solutions.svg`} alt={'reference image'} className={`${logoStyle}`} loading="lazy" />
                     </div>
                     <div className={`${divStyle}`}>
-                        <img src={`/references/medpan.webp`} alt={'reference image'} className={`${logoStyle}`} loading="lazy" />
+                        <img src={`./references/medpan.webp`} alt={'reference image'} className={`${logoStyle}`} loading="lazy" />
                     </div>
                     <div className={`${divStyle}`}>
-                        <img src={`/references/spanopoulos-logo-346x74.png`} alt={'reference image'} className={`${logoStyle}`} loading="lazy" />
+                        <img src={`./references/spanopoulos-logo-346x74.png`} alt={'reference image'} className={`${logoStyle}`} loading="lazy" />
                     </div>
                     <div className={`${divStyle}`}>
-                        <img src={`/references/marineworks.png`} alt={'reference image'} className={`${logoStyle}`} loading="lazy" />
+                        <img src={`./references/marineworks.png`} alt={'reference image'} className={`${logoStyle}`} loading="lazy" />
                     </div>
                     <div className={`${divStyle}`}>
-                        <img src={`/references/edt_offshore.svg`} alt={'reference image'} className={`${logoStyle}`} loading="lazy" />
+                        <img src={`./references/edt_offshore.svg`} alt={'reference image'} className={`${logoStyle}`} loading="lazy" />
                     </div>
                 </div>
             </div>
