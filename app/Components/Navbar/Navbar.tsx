@@ -46,10 +46,10 @@ const Navbar = () => {
             {/* Desktop Navbar List */}
             <div className="hidden lg:flex text-base font-bold w-[700px] justify-around items-center ">
                 <NavItem name="Ana Sayfa" href="/" elementID="carousel" />
-                <NavItem name="Hakkımızda" href="/#about" elementID="about" />
-                <NavItem name="Hizmetlerimiz" href="/#services" elementID="services" />
-                <NavItem name="Referanslar" href="/#reference" elementID="reference" />
-                <NavItem name="İletişim" href="/#contact" elementID="contact" />
+                <NavItem name="Hakkımızda" href="#about" elementID="about" />
+                <NavItem name="Hizmetlerimiz" href="#services" elementID="services" />
+                <NavItem name="Referanslar" href="#reference" elementID="reference" />
+                <NavItem name="İletişim" href="#contact" elementID="contact" />
             </div>
         </div>
     );
