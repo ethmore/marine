@@ -1,7 +1,3 @@
-# Block all crawlers for /panel
+# Block all crawlers
 User-agent: *
-Disallow: /panel
-
-# Allow all crawlers
-User-agent: *
-Allow: /
+Disallow: /
